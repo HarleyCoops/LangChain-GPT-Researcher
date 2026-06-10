@@ -3306,7 +3306,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/eslint-scope@npm:^3.7.3, @types/eslint-scope@npm:^3.7.7":
+"@types/eslint-scope@npm:^3.7.3":
   version: 3.7.7
   resolution: "@types/eslint-scope@npm:3.7.7"
   dependencies:
@@ -5434,10 +5434,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cookie@npm:^0.6.0":
-  version: 0.6.0
-  resolution: "cookie@npm:0.6.0"
-  checksum: f56a7d32a07db5458e79c726b77e3c2eff655c36792f2b6c58d351fb5f61531e5b1ab7f46987150136e366c65213cbe31729e02a3eaed630c3bf7334635fb410
+"cookie@npm:^0.7.0":
+  version: 0.7.0
+  resolution: "cookie@npm:0.7.0"
+  checksum: c57551593f20212aaf8128433ace5bab788072100c0f3dec284392fec6ad013fb69f8ff1344b20a778df049d538c1951a892e8cb5632bbeeec24b59b7e59f94c
   languageName: node
   linkType: hard
 
@@ -6448,7 +6448,7 @@ __metadata:
     "@mdx-js/react": ^1.6.22
     "@supabase/supabase-js": ^2.39.7
     clsx: ^1.2.1
-    cookie: ^0.6.0
+    cookie: ^0.7.0
     docusaurus-plugin-typedoc: next
     dotenv: ^16.4.5
     eslint: ^8.19.0
@@ -6470,8 +6470,8 @@ __metadata:
     typedoc: ^0.24.4
     typedoc-plugin-markdown: next
     typescript: ^5.1.3
-    uuid: ^9.0.0
-    webpack: ^5.104.1
+    uuid: ^14.0.0
+    webpack: ^5.107.0
     yaml-loader: ^0.8.0
   languageName: unknown
   linkType: soft
@@ -6749,13 +6749,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"enhanced-resolve@npm:^5.20.0":
-  version: 5.21.4
-  resolution: "enhanced-resolve@npm:5.21.4"
+"enhanced-resolve@npm:^5.21.4":
+  version: 5.23.0
+  resolution: "enhanced-resolve@npm:5.23.0"
   dependencies:
     graceful-fs: ^4.2.4
     tapable: ^2.3.3
-  checksum: bf86032839b121c3853c1c03ab9e48e2ee487ac2e676670eb0bf317a26a9f17d4fa30b21f3b14d0e389b5002543d759a32afb78faab1ce15aebeb499423d5f2c
+  checksum: ae594afb28f15a44bbbd8f3eede43e97b8c7bae9e89b7040a209fb8f50c1d2f27f0bfe63b3c31ab226b1b8eefabf2277ed83fba0177b55d76239a8efba3b148c
   languageName: node
   linkType: hard
 
@@ -6905,7 +6905,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"es-module-lexer@npm:^2.0.0":
+"es-module-lexer@npm:^2.1.0":
   version: 2.1.0
   resolution: "es-module-lexer@npm:2.1.0"
   checksum: 65538cfb7bfc48c80cf827764132137c22bb41d1dd2921a9767bcb9763342d87ed844994f59a267b05a79a36b7ebb3ad892894db69889bf3e0af6bd7d5291223
@@ -9734,7 +9734,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"loader-runner@npm:^4.3.1":
+"loader-runner@npm:^4.3.2":
   version: 4.3.2
   resolution: "loader-runner@npm:4.3.2"
   checksum: 92906b3d187999f49f6b22c4ee49261f9a38cd8ce00051e511b804fbac7d4533a48c7c5c1e051818c44e6bbfb11e6fbc3941f1d245155fd5debc50b2b5867215
@@ -13550,9 +13550,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"terser-webpack-plugin@npm:^5.3.17":
-  version: 5.6.0
-  resolution: "terser-webpack-plugin@npm:5.6.0"
+"terser-webpack-plugin@npm:^5.5.0":
+  version: 5.6.1
+  resolution: "terser-webpack-plugin@npm:5.6.1"
   dependencies:
     "@jridgewell/trace-mapping": ^0.3.25
     jest-worker: ^27.4.5
@@ -13585,7 +13585,7 @@ __metadata:
       optional: true
     uglify-js:
       optional: true
-  checksum: 168a6318577bffba31e828eb3258a61bab6ce2395ea66b6339cebe5abb69bac0bd1ce9a8dfdaeea86752e940deaa8b0adc1cbe20435306ee9354725856cbfb41
+  checksum: b596093d667af8c7c89c2a65d93090f37cf58ebcfb5c86429ad1c6d9dba05857b572659c17900cafc25888613ac4c391a4c20d27b4c8b5dcdbcdf32e0f1ee8fc
   languageName: node
   linkType: hard
 
@@ -14312,6 +14312,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"uuid@npm:^14.0.0":
+  version: 14.0.0
+  resolution: "uuid@npm:14.0.0"
+  bin:
+    uuid: dist-node/bin/uuid
+  checksum: 08608584a79e987cdae000fa8eb724fa51dd8aafc136cd9fa9a8c87d07b246c56eec5fd9027fdb3e49a863eedf758bc19e325909ce281955c7a027fed67dc89e
+  languageName: node
+  linkType: hard
+
 "uuid@npm:^8.3.2":
   version: 8.3.2
   resolution: "uuid@npm:8.3.2"
@@ -14578,18 +14587,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack-sources@npm:^3.3.4":
-  version: 3.4.1
-  resolution: "webpack-sources@npm:3.4.1"
-  checksum: 5b318a9d3ed0ab53ca1e7e6b340eb7d88220a7197977b51b24d9e15ac864615f7ab58486f3233327d152f4a618f23d219877b7dc506f6adb75f3a8dd4d73ab5c
+"webpack-sources@npm:^3.4.1":
+  version: 3.5.0
+  resolution: "webpack-sources@npm:3.5.0"
+  checksum: 748e288620d0731be0f89efaf9cce752d245e224b4d74361d1150ebe680338946ced1bbcc0a67b887cf0a86e1ed4d6c68770b7b7c46f83975c0bc30eb8c64ff6
   languageName: node
   linkType: hard
 
-"webpack@npm:^5.104.1":
-  version: 5.106.2
-  resolution: "webpack@npm:5.106.2"
+"webpack@npm:^5.107.0":
+  version: 5.107.0
+  resolution: "webpack@npm:5.107.0"
   dependencies:
-    "@types/eslint-scope": ^3.7.7
     "@types/estree": ^1.0.8
     "@types/json-schema": ^7.0.15
     "@webassemblyjs/ast": ^1.14.1
@@ -14599,26 +14607,26 @@ __metadata:
     acorn-import-phases: ^1.0.3
     browserslist: ^4.28.1
     chrome-trace-event: ^1.0.2
-    enhanced-resolve: ^5.20.0
-    es-module-lexer: ^2.0.0
+    enhanced-resolve: ^5.21.4
+    es-module-lexer: ^2.1.0
     eslint-scope: 5.1.1
     events: ^3.2.0
     glob-to-regexp: ^0.4.1
     graceful-fs: ^4.2.11
-    loader-runner: ^4.3.1
+    loader-runner: ^4.3.2
     mime-db: ^1.54.0
     neo-async: ^2.6.2
     schema-utils: ^4.3.3
     tapable: ^2.3.0
-    terser-webpack-plugin: ^5.3.17
+    terser-webpack-plugin: ^5.5.0
     watchpack: ^2.5.1
-    webpack-sources: ^3.3.4
+    webpack-sources: ^3.4.1
   peerDependenciesMeta:
     webpack-cli:
       optional: true
   bin:
     webpack: bin/webpack.js
-  checksum: fd44725871b6777b62cdcbb32492b48740bbd575811c2c45e1c9c9413d0cbf4de7aa9931b3ccfd072d155f811de3584951264bfa30164a5e2f5db66cbf52b260
+  checksum: 21aa704fd4c72d8caf43982ccd5f495cca22895fe724c0f083e9807260607809d7986f1396547f74ea53016b363f167ebe3b3678cd632389165998caa213456c
   languageName: node
   linkType: hard
 
